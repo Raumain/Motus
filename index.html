@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <title>Rotus</title>
+</head>
+<body>
+    <section class="rules">
+        <div class="rules-content">
+            <i class="fa-solid fa-times"></i>
+            <div class="rules-title">
+                <h1>Les règles du ROTUS</h1>
+            </div>
+            <div class="rules-body">
+                <p>Comme dans le jeu Motus, vous devez trouver le mot en n'ayant que la première lettre</p>
+                <p>Une lettre avec un fond <span class="vert">vert</span> signifie que la lettre est bien placé dans le mot</p>
+                <p>Une lettre avec un fond <span class="bleu">bleu</span> signifie que la lettre est mal placé dans le mot</p>
+                <p>Si le fond ne change pas, la lettre n'existe pas dans le mot</p>
+                <p>ATTENTION : Soyez sur de l'orthographe et de l'existence de votre proposition...</p>
+            </div>
+        </div>
+    </section>
+    <section class="lockscreen">
+
+    </section>
+    <section class="result-screen win">
+        <div class="result">
+            <h1>Vous avez gagné !</h1>
+            <div class="word">
+                Le mot était : 
+            </div>
+            <div class="emoji">
+                <table class="table-result">
+                    
+                </table>
+            </div>
+            <div class="copy">
+                <p>Partagez votre résultat !</p>
+                <span class="popup">Copié dans le presse papier !</span>
+            </div>
+        </div>
+    </section>
+    <section class="result-screen loose">
+        <div class="result">
+            <h1>Vous avez perdu ! :(</h1>
+            <div class="word">
+                Revenez demain !
+            </div>
+            <div class="emoji">
+                <table class="table-result">
+
+                </table>
+            </div>
+            <div class="copy">
+                <span>Partagez</span> votre résultat !
+            </div>
+        </div>
+    </section>
+    <section class="title">
+        <h1>ROTUS</h1>
+    </section>
+    <section class="content">
+        <div class="grille">
+            <table class="table">
+                <tr class="first-line set">
+
+                </tr>
+                <tr class="lines unset">
+
+                </tr>
+                <tr class="lines unset">
+                    
+                </tr>
+                <tr class="lines unset">
+
+                </tr>
+                <tr class="lines unset">
+                    
+                </tr>
+                <tr class="lines unset">
+                    
+                </tr>
+            </table>
+        </div>
+        <div class="keyboard">
+            <div class="touche">A</div>
+            <div class="touche">Z</div>
+            <div class="touche">E</div>
+            <div class="touche">R</div>
+            <div class="touche">T</div>
+            <div class="touche">Y</div>
+            <div class="touche">U</div>
+            <div class="touche">I</div>
+            <div class="touche">O</div>
+            <div class="touche">P</div>
+            <div class="touche">Q</div>
+            <div class="touche">S</div>
+            <div class="touche">D</div>
+            <div class="touche">F</div>
+            <div class="touche">G</div>
+            <div class="touche">H</div>
+            <div class="touche">J</div>
+            <div class="touche">K</div>
+            <div class="touche">L</div>
+            <div class="touche">M</div>
+            <div class="touche">W</div>
+            <div class="touche">X</div>
+            <div class="touche">C</div>
+            <div class="touche">V</div>
+            <div class="touche">B</div>
+            <div class="touche">N</div>
+            <div class="touche efface">&#8592;</div>
+            <div class="touche entre">&#8617;</div>
+        </div>
+    </section>
+    <footer>
+        <ul>
+            <li>2022 - Romain THIBAUD, inspiré de Motus</li>
+        </ul>
+    </footer>
+    <script src="javascript/main.js"></script>
+    <script src="javascript/copy.js"></script>    
+    <script src="javascript/close.js"></script>    
+</body>
+</html>
